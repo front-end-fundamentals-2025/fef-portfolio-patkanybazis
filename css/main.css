@@ -2,12 +2,21 @@
   font-family: "Oswald", serif;
 }
 
+body {
+  background-color: black;
+}
+
+header {
+  text-align: center;
+  position: relative;
+}
+
 ul {
   list-style: none;
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 .menu {
@@ -22,4 +31,11 @@ a {
 .menu a {
   text-decoration: none;
   font-size: 30px;
+}
+
+.line {
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
