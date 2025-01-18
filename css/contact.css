@@ -26,11 +26,6 @@ a {
   position: relative;
 }
 
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
 .menu {
   display: flex;
   justify-content: center;
@@ -63,15 +58,7 @@ a {
   top: 30px;
 }
 
-.portfolio_image_div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-}
-
-.portfolio_img {
-  max-width: 50%;
-  height: auto;
-  margin-top: 100px;
+h1,
+h3 {
+  color: white;
 }
