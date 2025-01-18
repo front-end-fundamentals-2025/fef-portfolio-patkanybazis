@@ -75,3 +75,92 @@ a {
   height: auto;
   margin-top: 100px;
 }
+
+.me_image_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.placeholder {
+  max-width: 50%;
+  height: auto;
+  margin-top: 100px;
+  transform: translate(-30%, 0%);
+  top: 30px;
+}
+
+.education_box,
+.skills_box,
+.languages_box {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.education_container,
+.languages_container {
+  position: relative;
+  top: 80px;
+  left: 60%;
+  width: 25%;
+  padding: 0px;
+}
+
+.skills_container {
+  position: relative;
+  top: 80px;
+  left: 20%;
+  width: 25%;
+  padding: 20px;
+}
+
+.h1_box {
+  padding: none;
+  margin: none;
+  font-size: 40px;
+}
+
+.h3_box {
+  top: 0px;
+  padding: none;
+  margin: none;
+  font-size: 100 px;
+}
+
+.li_box {
+  font-size: 20px;
+}
+
+#name {
+  font-size: 80px;
+}
+
+.softwares_container {
+  top: 200px;
+  text-align: center;
+  position: relative;
+}
+
+#softwares {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-20%);
+  display: flex;
+  transform: translateX(-50%);
+}
+
+#software_line {
+  top: 60px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 20px auto 0;
+  position: relative;
+}
