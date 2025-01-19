@@ -25,59 +25,54 @@
       </div>
     </header>
 
-    <div>
-      <h1>CONTACT</h1>
-      <img src="img/star-menu.png" alt="line" />
+    <div class="content">
+  <div class="contact_box">
+    <h3 id="contact_h3">MY CONTACTS</h3>
+    <div class="contact_li">
+      <li>email: raad23tt@student.ju.se</li>
+      <li>insta: @ratonyii</li>
+      <li>github: @patkanybazis</li>
+      <li>phone: dont call me plz</li>
+      <li>snap: no</li>
     </div>
+  </div>
 
-    <div>
-      <h3>MY CONTACTS</h3>
-      <ul>
-        <li>email: sfhjgbsdfnk</li>
-        <li>phone: dont call me plz</li>
-        <li>insta: oejdfishdif</li>
-        <li>facebook: nye</li>
-        <li>stuff blablabla</li>
-      </ul>
-    </div>
+  <div class="message_box">
+    <h2>Write me a message! :D</h2>
 
-    <div>
-      <h2>Write me a message!</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="your name"
+      />
+      <br /><br />
 
-      <form>
-        <label for="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          placeholder="your name"
-        />
-        <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="your email"
+      />
+      <br /><br />
 
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          placeholder="your email"
-        />
-        <br /><br />
+      <label for="message">Message:</label> <!--https://www.w3schools.com/html/html_forms.asp-->
+      <textarea
+        id="message"
+        name="message"
+        required
+        placeholder="Write your message here..."
+      ></textarea>
+      <br /><br />
 
-        <label for="message">Message:</label>
-        <textarea
-          id="message"
-          name="message"
-          rows="4"
-          cols="50"
-          required
-          placeholder="Write your message here..."
-        ></textarea>
-        <br /><br />
-
-        <input type="submit" value="Send" />
-      </form>
-    </div>
+      <input type="submit" value="Send" />
+    </form>
+  </div>
+</div>
   </body>
 </html>

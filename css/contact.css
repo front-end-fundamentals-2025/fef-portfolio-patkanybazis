@@ -26,7 +26,7 @@ a {
   position: relative;
 }
 
-.menu {
+.menu { /*positioning: https://www.w3schools.com/css/css_align.asp*/
   display: flex;
   justify-content: center;
   margin: 0;
@@ -36,8 +36,8 @@ a {
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  transform: translateX(-50%);
-  gap: 20px;
+  transform: translateX(-50%);  /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform*/
+  gap: 20px;                   /* https://www.w3schools.com/cssref/css3_pr_gap.php*/
 }
 
 .menu li {
@@ -61,4 +61,24 @@ a {
 h1,
 h3 {
   color: white;
+}
+
+#contact_h3 {
+  font-size: 40px;
+}
+.contact_li {
+  font-size: 20px;
+}
+
+.content {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact_box, .message_box {
+  flex: 1;
+  max-width: 30%;
 }
