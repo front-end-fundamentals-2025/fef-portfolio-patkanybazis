@@ -136,7 +136,7 @@ a {
 #name {
   font-size: 80px;
 }
-
+/*
 .softwares_container {
   top: 200px;
   text-align: center;
@@ -163,4 +163,12 @@ a {
   display: block;
   margin: 20px auto 0;
   position: relative;
+}
+  */
+
+/* FOOTER */
+
+p {
+  margin-top: 3 rem;
+  border-top: 1px solid white;
 }

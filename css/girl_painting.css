@@ -1,0 +1,79 @@
+* {
+  font-family: "Oswald", serif;
+  color: white;
+}
+/*HEADER*/
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-left: 5rem;
+}
+
+a {
+  color: white;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-container {
+  /*copilot*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+body {
+  background-color: black;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+#girl_painting_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#girl_painting {
+  width: 70%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 3 rem;
+  border-top: 1px solid white;
+}

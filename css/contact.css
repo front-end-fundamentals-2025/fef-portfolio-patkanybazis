@@ -26,7 +26,8 @@ a {
   position: relative;
 }
 
-.menu { /*positioning: https://www.w3schools.com/css/css_align.asp*/
+.menu {
+  /*positioning: https://www.w3schools.com/css/css_align.asp*/
   display: flex;
   justify-content: center;
   margin: 0;
@@ -36,8 +37,10 @@ a {
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  transform: translateX(-50%);  /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform*/
-  gap: 20px;                   /* https://www.w3schools.com/cssref/css3_pr_gap.php*/
+  transform: translateX(
+    -50%
+  ); /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform*/
+  gap: 20px; /* https://www.w3schools.com/cssref/css3_pr_gap.php*/
 }
 
 .menu li {
@@ -78,7 +81,15 @@ h3 {
   gap: 20px;
 }
 
-.contact_box, .message_box {
+.contact_box,
+.message_box {
   flex: 1;
   max-width: 30%;
+}
+
+/* FOOTER */
+
+p {
+  margin-top: 3 rem;
+  border-top: 1px solid white;
 }

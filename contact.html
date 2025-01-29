@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proba</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,6 +18,7 @@
         <nav>
           <ul class="menu">
             <a href="index.html"> <li>About me</li> </a>
+            <a href="works.html"> <li>Works</li> </a>
             <a href="contact.html"> <li>Contact</li> </a>
           </ul>
         </nav>
@@ -26,53 +27,55 @@
     </header>
 
     <div class="content">
-  <div class="contact_box">
-    <h3 id="contact_h3">MY CONTACTS</h3>
-    <div class="contact_li">
-      <li>email: raad23tt@student.ju.se</li>
-      <li>insta: @ratonyii</li>
-      <li>github: @patkanybazis</li>
-      <li>phone: dont call me plz</li>
-      <li>snap: no</li>
+      <div class="contact_box">
+        <h3 id="contact_h3">MY CONTACTS</h3>
+        <div class="contact_li">
+          <li>email: raad23tt@student.ju.se</li>
+          <li>insta: @ratonyii</li>
+          <li>github: @patkanybazis</li>
+          <li>phone: dont call me plz</li>
+          <li>snap: no</li>
+        </div>
+      </div>
+
+      <div class="message_box">
+        <h2>Write me a message! :D</h2>
+
+        <form>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="your name"
+          />
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="your email"
+          />
+          <br /><br />
+
+          <label for="message">Message:</label>
+          <!--https://www.w3schools.com/html/html_forms.asp-->
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Write your message here..."
+          ></textarea>
+          <br /><br />
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
     </div>
-  </div>
-
-  <div class="message_box">
-    <h2>Write me a message! :D</h2>
-
-    <form>
-      <label for="name">Name:</label>
-      <input
-        type="text"
-        id="name"
-        name="name"
-        required
-        placeholder="your name"
-      />
-      <br /><br />
-
-      <label for="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        required
-        placeholder="your email"
-      />
-      <br /><br />
-
-      <label for="message">Message:</label> <!--https://www.w3schools.com/html/html_forms.asp-->
-      <textarea
-        id="message"
-        name="message"
-        required
-        placeholder="Write your message here..."
-      ></textarea>
-      <br /><br />
-
-      <input type="submit" value="Send" />
-    </form>
-  </div>
-</div>
+    <footer><p>© Adrienn Rátonyi</p></footer>
   </body>
 </html>
