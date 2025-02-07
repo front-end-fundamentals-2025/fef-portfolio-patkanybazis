@@ -172,3 +172,22 @@ p {
   margin-top: 3 rem;
   border-top: 1px solid white;
 }
+
+/*ANIMATION*/
+
+/*enlarge text*/
+@keyframes enlargeText {
+  0% {
+    font-size: 1em;
+  }
+  50% {
+    font-size: 1.1em;
+  }
+  100% {
+    font-size: 1.2em;
+  }
+}
+
+.menu li:hover {
+  animation: enlargeText 0.3s ease-in-out forwards;
+}
