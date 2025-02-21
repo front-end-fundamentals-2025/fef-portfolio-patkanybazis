@@ -183,6 +183,9 @@ p {
   50% {
     font-size: 1.1em;
   }
+  80% {
+    font-size: 1.15em;
+  }
   100% {
     font-size: 1.2em;
   }
